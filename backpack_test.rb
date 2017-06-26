@@ -55,9 +55,6 @@ class BackpackTest < MiniTest::Test
       refute(backpack.items.include?('gym shoes'))
     end
   end
-  ###### TESTS ABOUT GYM SHOES... wait, where are the tests about gym shoes? #####
-  # is something missing here?
-
 
   ##### TESTS ABOUT PRINTING THE LIST #####
   def test_that_backpack_prints_correctly
